@@ -1,13 +1,13 @@
-- name: Link
-  image: https://atlinker.cn/avatar/avatar.png
-  url: https://atlinker.cn/
-  describe: Link's Blog
+- name: Codeforces
+  image: https://img1.imgtp.com/2023/06/25/BigFRxxC.png
+  url: https://codeforces.com/
+  describe: Codeforces
   skin: /theme/skin/skin3.png
 
-- name: Daily
-  image: https://atlinker.cn/avatar/default.png
-  url: https://daily.atlinker.cn/daily
-  describe: Daily Article.
+- name: Luogu
+  image: https://img1.imgtp.com/2023/06/25/kWmppUaI.png
+  url: https://www.luogu.com.cn/
+  describe: Luogu
   skin: /theme/skin/skin1.png
 
 # - name: Links Name
