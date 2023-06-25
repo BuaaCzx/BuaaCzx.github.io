@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links
-tagline: My friends.
+tagline: 实用工具网站
 permalink: /links.html
 ---
 
@@ -14,7 +14,7 @@ permalink: /links.html
  <p class="link-chip-dc">{{f.describe}}</p></a></div>
 {% endfor %}
 
-[返回主页]({{ site.url }})
+[返回主页](buaaczx.github.io "返回主页")
 
 <hr/>
 
