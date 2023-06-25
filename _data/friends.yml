@@ -10,6 +10,12 @@
   describe: Luogu
   skin: /theme/skin/skin1.png
 
+- name: BuaaAcm
+  image: https://img1.imgtp.com/2023/06/25/kWmppUaI.png
+  url: https://cvbbacm.com/
+  describe: 北航XCPC
+  skin: /theme/skin/skin2.png
+
 # - name: Links Name
 #  image: http://example.com/img.png
 #  url: https://example.com
