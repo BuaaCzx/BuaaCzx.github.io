@@ -28,9 +28,6 @@ hydrogen-blog:
 #MathJax switch
 MathJax: true
 
-kramdown:
-  math_engine: MathJax
-
 #install emoji
 plugins:
   - jemoji
