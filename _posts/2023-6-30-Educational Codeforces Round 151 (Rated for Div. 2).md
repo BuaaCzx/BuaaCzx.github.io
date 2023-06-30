@@ -113,7 +113,39 @@ void solve() {
 rating变化的机制：当选手的rating达到 $k$ 之后，如果之后它的某次rating变化将使它的rating低于 $k$ 了，它的rating只会变为 $k$。  
 问当 $k$ 取多少时，选手最后的rating会最高。
 ## 思路
+显然答案应为 $\sum_{1}^{m} a_i$。假设在达到 $k$ 后，rating清零，之后的rating以 $k=0$ 计算，最后 ${rating} + k$ 即为选手最终的rating。因此，我们只需要试图处理出 $k=0$ 时每个后缀的rating，就能够解决问题。  
+求每个后缀的rating值，用dp来解决。对于每个后缀，我们可以把它拆分成两段，前一段的和为负数，后一段的和及其所有前缀和均为正数，该后缀的值即为后一段的和。用一个变量 $w$ 来记录``前一段的和``，如果 $w$ 为正数，说明它应该被划到后一段中，``sufsum[i]=sufsum[i+1]+w，w=0`` ，如果 $w$ 为负数，那么将它继续累积起来，``sufsum[i]=sufsum[i+1]``。
 ## 代码
 ```cpp
-
+long long a[300010], sufsum[300010], ans, k, maxx = -INF;
+int n;
+void solve() {
+    k = 0;
+    maxx = -INF;
+    posi = nega = 0;
+    cin >> n;
+    rep(i, 1, n) {
+        sufsum[i] = 0;
+        cin >> a[i];
+    }
+    sufsum[n + 1] = 0;
+    int w = 0;
+    per(i, n, 1) {
+        w += a[i];
+        if (w > 0) {
+            sufsum[i] = w + sufsum[i + 1];
+            w = 0;
+        } else {
+            sufsum[i] = sufsum[i + 1];
+        }
+    }
+    rep(i, 0, n - 1) {
+        k += a[i];
+        if (k + sufsum[i + 1] > maxx) {
+            maxx = k + sufsum[i + 1];
+            ans = k;
+        }
+    }
+    cout << ans << endl;
+}
 ```
