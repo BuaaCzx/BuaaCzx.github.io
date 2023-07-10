@@ -194,7 +194,6 @@ int main() {
             s[x] = '0';
             if (rank[x] >= 1 && rank[x] <= min(k, k0))
                 num--;
-
             if (k <= k0 && s[id[k]] == '1')
                 num -= 1;
             k--;
