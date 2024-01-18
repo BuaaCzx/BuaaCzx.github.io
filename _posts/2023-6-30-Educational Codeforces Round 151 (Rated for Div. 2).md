@@ -3,6 +3,9 @@ layout: post
 title: Educational Codeforces Round 151 [Rated for Div. 2]
 tags: contests
 ---  
+
+Educational Codeforces Round 151 [Rated for Div. 2]
+
 # A
 ## 题目大意  
 输入 $n,k,x$，有 $1$ 到 $k$ 中除了 $x$ 的所有数，每个数可以取任意次，任意给出一种取法，让取出来的所有的数和为 $n$。
