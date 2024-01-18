@@ -3,6 +3,9 @@ layout: post
 title: vp Codeforces Round 881 (Div. 3)
 tags: contests
 ---  
+
+vp Codeforces Round 881 (Div. 3)
+
 # A
 ## 题目大意  
 给定一个数列，对这个数列上的每个数染色，对于每种颜色，染色的花费是 $该颜色的最大数-最小数$ ，求染色总花费的最大值。
