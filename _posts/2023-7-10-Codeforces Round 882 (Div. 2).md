@@ -3,6 +3,9 @@ layout: post
 title: Codeforces Round 882 (Div. 2)
 tags: contests
 ---  
+
+Codeforces Round 882 (Div. 2)
+
 # A
 ## 题目大意
 一段数列的总贡献是所有相邻两项差的绝对值的总和。现有一段长度为 $n$ 的数列，可以把它分为 $k$ 段，求这k段的贡献之和的最小值。
