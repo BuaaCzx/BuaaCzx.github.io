@@ -1,14 +1,14 @@
 ---
 layout: page
-title: about
+title: About
 tagline: 关于我
 sitetime: display
-permalink: /about.html
+permalink: /About.html
 ---
 
 ## 作者
 
-你可以通过以下方式联系作者
+BUAA 2206
 
 QQ / WeChat: 1759320900
 
