@@ -1,6 +1,6 @@
 title: hihiczx's Blog #博客标题
 description: 记录学习所得 #博客描述
-keywords: oi,acm,buaa #博客关键字
+keywords: acm buaa 计算机学院 #博客关键字
 author: "hihiczx"
 
 #title hide and show
@@ -18,7 +18,7 @@ paginate: 8 #同时显示的最大文章数，超过自动分页
 paginate_path: "page:num"
 
 background: https://i0.imgs.ovh/2024/01/18/sX5g0.jpeg
-theme_color: 546E7A
+theme_color: 2F476C
 
 # hydrogen-blog date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
