@@ -4,9 +4,9 @@ title: 综述：基于 LLM 的多智能体
 tags: 学习笔记
 ---
 
-https://arxiv.org/abs/2402.01680
 
-基于大语言模型的多智能体：进展与挑战综述
+
+https://arxiv.org/abs/2402.01680
 
 ## Abstract
 
