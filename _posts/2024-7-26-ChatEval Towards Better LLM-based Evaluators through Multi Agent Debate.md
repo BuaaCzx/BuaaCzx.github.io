@@ -1,12 +1,12 @@
 ---
 layout: post
-title: ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate
+title: Multi-Agent Debate 实现文本评估器
 tags: 学习笔记
 ---
 
 Chateval：通过多智能体辩论实现更好的基于 LLM 的评估器
 
-https://arxiv.org/abs/2308.07201
+https://arxiv.org/abs/2308.:07201
 
 ## ABSTRACT
 
