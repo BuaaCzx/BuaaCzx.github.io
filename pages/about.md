@@ -8,7 +8,7 @@ permalink: /About.html
 
 ## 作者
 
-**BUAA 2206**
+BUAA 2206
 
 ICPC 2023 regional Ag
 
