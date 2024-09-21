@@ -71,8 +71,72 @@ baseline： [zero-shot chain of thought](https://arxiv.org/abs/2205.11916)，[re
 
 ## Experiments
 
-评估，回答以下问题：
+讨论的问题：
 
-1. 提高了多少推理能力？
-2. 提高了多少事实有效性？
-3. 什么设计可以让 debate 提高语言生成的表现？
+1. Debate 在多大程度上提高了 **推理能力（reasoning）**？
+2. Debate 在多大程度上提高了 **事实有效性（factual validity）**？
+3. 什么样的 **设计** 能提高多智能体辩论的语言生成性能？
+
+### Reasoning
+
+在三个难度越来越大的推理任务中进行评估：
+
+- Arithmetic 算数
+- GSM8K 小学数学
+- Chess Move Prediction 国际象棋走法预测，给出前 14 步，预测下一步最好应该怎么走。
+
+baseline：和三种方法进行比较。
+
+- 单智能体
+- 让模型生成后进行“self-reflect”
+- 多智能体生成 response 后进行投票
+
+考虑到开销问题，使用三个智能体，两轮辩论来评估。
+
+定量结果分析：相比单智能体，多智能体生成解决方案提高了性能；当模型被要求对自己的生成进行批评时（slef-reflect），会提高性能；多智能体辩论可以视为是 reflection 和多智能体生成的结合。
+
+![image-20240914172206321](./../images/2024-7-25-Improving%20Factuality%20and%20Reasoning%20in%20LLM%20through%20Multiagent%20Debate/image-20240914172206321.png)
+
+定性结果分析：虽然所有模型最初都给出了错误的答案，但是辩论后得到了正确的答案。因此辩论的目的不仅仅是为了放大某一个正确答案。
+
+### Factual
+
+在三种不同的环境下评估语言模型的真实性。
+
+- Biographies：构建 524 位计算机科学家的真实传记，要求模型为每个人生成传记，评估生成的传记和真实传记的一致准确性。
+
+- MMLU：现有的 MMLU 数据集，评估模型回答不同的事实性和知识问题（像考试题一样）时的准确性。
+
+  ![image-20240914173527528](./../images/2024-7-25-Improving%20Factuality%20and%20Reasoning%20in%20LLM%20through%20Multiagent%20Debate/image-20240914173527528.png)
+
+- Chess Move Validity：BIG-Bench Chess-State Tracking Benchmark，给一个既定的规则，然后给一个下一步的走法集合，模型选择一个走法。
+
+baseline：同上，删去多智能体投票。
+
+结果：reflection 表现不佳，debate 表现很好。
+
+当模型对问题不确定时，不同的智能体倾向于给出不同的答案；但直接询问每个智能体对答案的置信度，会导致每个答案的置信度评分都很高。debate 时智能体会迅速改变观点，获得更准确的共识性答案。
+
+### Analysis: Understanding Multiagent Debate
+
+- 智能体数量。固定辩论次数为两次，增加智能体数量，性能随着智能体数量增加而增加。智能体数量多的时候，先用 chatGPT 总结所有智能体的 response，以免直接连接而造成上下文长度过长。
+
+- 辩论轮数。固定智能体数量为三个，增加辩论轮数，性能随辩论轮数增加而增加。4 轮以上的辩论最终表现和 4 轮相似。
+
+  ![image-20240921124548525](./../images/2024-7-25-Improving%20Factuality%20and%20Reasoning%20in%20LLM%20through%20Multiagent%20Debate/image-20240921124548525.png)
+
+- 辩论长度。用 prompt 控制答案收敛的程度，从而控制辩论持续的长度。长 prompt 的辩论导致收敛速度慢，但最终的答案更好。
+
+  ![image-20240921125125323](./../images/2024-7-25-Improving%20Factuality%20and%20Reasoning%20in%20LLM%20through%20Multiagent%20Debate/image-20240921125125323.png)
+
+  <img src="./../images/2024-7-25-Improving%20Factuality%20and%20Reasoning%20in%20LLM%20through%20Multiagent%20Debate/image-20240921125227315.png" alt="image-20240921125227315" style="zoom:50%;" />
+
+- 使用不同的初始 prompt。让不同的模型在 MMLU 数据集上表现得像不同的角色，这会提高性能。
+
+- 总结。智能体数量较多时，直接把 response 连接起来会使成本增大，可以将所有其他智能体的 response 总结成一个 response。会提高性能。
+
+  ![image-20240921140332184](./../images/2024-7-25-Improving%20Factuality%20and%20Reasoning%20in%20LLM%20through%20Multiagent%20Debate/image-20240921140332184.png)
+
+- 利用不同的模型。现有结果是用 chatGPT 的 instance 来做的，进一步用了两种不同的语言模型，chatGPT 和 Bard 在 20 个 GSM8K 数学问题上进行辩论，结果发现提高了性能。
+
+  ![image-20240921141403521](./../images/2024-7-25-Improving%20Factuality%20and%20Reasoning%20in%20LLM%20through%20Multiagent%20Debate/image-20240921141403521.png)
