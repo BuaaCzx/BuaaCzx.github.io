@@ -4,7 +4,7 @@ title: LogicPro
 tags: 学习笔记
 ---
 
-
+使用算法题来构造高质量的推理数据。
 
 ## Abstract
 
