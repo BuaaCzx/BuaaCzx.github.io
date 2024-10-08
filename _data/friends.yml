@@ -1,20 +1,8 @@
-- name: Codeforces
-  image: https://img1.imgtp.com/2023/06/25/BigFRxxC.png
-  url: https://codeforces.com/
-  describe: Codeforces
+- name: Yang's CS World
+  image: https://yangyzzzz.github.io/img/avatar.jpeg
+  url: https://yangyzzzz.github.io/
+  describe: 2106 杨博文
   skin: /theme/skin/skin3.png
-
-- name: Luogu
-  image: https://img1.imgtp.com/2023/06/25/kWmppUaI.png
-  url: https://www.luogu.com.cn/
-  describe: Luogu
-  skin: /theme/skin/skin1.png
-
-- name: BuaaAcm
-  image: https://img1.imgtp.com/2023/06/25/kWmppUaI.png
-  url: https://cvbbacm.com/
-  describe: 北航XCPC
-  skin: /theme/skin/skin2.png
 
 # - name: Links Name
 #  image: http://example.com/img.png
