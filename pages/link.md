@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links
-tagline: 一些帮助到我的学长博客 ~
+tagline: Friends!
 permalink: /links.html
 ---
 
