@@ -3,6 +3,15 @@
   url: https://yangyzzzz.github.io/
   describe: 2106 杨博文
   skin: /theme/skin/skin3.png
+- name: UUQ's Blog
+  image: http://example.com/img.png
+  url: https://liboqiao1234.github.io/
+  describe: UUQ
+
+- name: yanglingsanshan
+  image: http://yanglingsanshan.online/wp-content/uploads/2024/06/1718721551-1032b1e63f855776a09ab71243eb83a.png
+  url: https://yanglingsanshan.online/
+  describe: EIOU
 
 # - name: Links Name
 #  image: http://example.com/img.png
