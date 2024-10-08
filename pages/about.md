@@ -10,7 +10,7 @@ permalink: /About.html
 
 BUAA 2206
 
-ICPC 2023 regional Ag
+ICPC 2023 亚洲区域赛 银奖
 
 23-24 程序设计基础 助教
 
