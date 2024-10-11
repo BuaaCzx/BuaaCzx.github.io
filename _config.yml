@@ -14,6 +14,9 @@ buildtime: "1687690354" #博客建立时的时间戳 可进入https://tool.lu/ti
 
 PJAX: true #启用PJAX，会与评论系统冲突（如不用评论系统建议开启）
 
+filters:
+  hashify: "{{ page.title | md5 }}"
+
 paginate: 8 #同时显示的最大文章数，超过自动分页
 paginate_path: "page:num"
 
@@ -25,7 +28,9 @@ theme_color: 2F476C
 hydrogen-blog:
   date_format: "%b %-d, %Y"
 
-permalink: /:year_:month_:day_:i
+# permalink: /:year_:month_:day_:title
+permalink: /:year_:month_:day_{{ page.title | hashify }}
+
 
 #MathJax switch
 MathJax: true
