@@ -25,7 +25,7 @@ theme_color: 2F476C
 hydrogen-blog:
   date_format: "%b %-d, %Y"
 
-permalink: /:year_:month_:day_:id
+permalink: /:year_:month_:day_:i
 
 #MathJax switch
 MathJax: true
