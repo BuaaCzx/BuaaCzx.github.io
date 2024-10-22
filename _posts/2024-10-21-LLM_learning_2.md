@@ -4,7 +4,7 @@ title: LLM 学习笔记2-神经网络
 tags: LLM 学习笔记
 ---
 
-神经网络
+神经网络简介，RNN，CNN，Seq2Seq，Transformer
 
 ## 简单神经网络
 
