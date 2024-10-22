@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LLM 学习笔记1-绪论
-tags: 学习笔记
+tags: LLM 学习笔记
 ---
 
 符号智能 $\to$ 狭义智能 $\to$ 通用智能
