@@ -14,7 +14,10 @@ tags: 实习记录
 
 不把题目作为算法题目来解答，只是把它当作一个逻辑性的题目，对于给定的输入数据，经过逻辑推理推理得到答案。只有这样的算法竞赛题目才能够集中找到大批量的类似数据。
 
-参考文献：[LogicPro: Improving Complex Logical Reasoning via Program-Guided Learning](https://arxiv.org/abs/2409.12929) （博客站里有该论文的笔记）
+参考文献：
+
+1. [LogicPro: Improving Complex Logical Reasoning via Program-Guided Learning](https://arxiv.org/abs/2409.12929) （博客站里有该论文的笔记）
+2. [LogicGame: Benchmarking Rule-Based Reasoning Abilities of Large Language Models](https://arxiv.org/abs/2408.15778)
 
 旨在提升模型的 **逻辑推理能力与指令遵循能力**。
 
