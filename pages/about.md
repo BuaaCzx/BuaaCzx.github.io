@@ -6,28 +6,55 @@ sitetime: display
 permalink: /About.html
 ---
 
-## 作者
+# 👋 Hi, I'm BuaaCzx
 
-BUAA 2206
+🎓 **Beihang University - School of Computer Science**  
+- Major: Computer Science and Technology  
+- 2022.09 - 2026.07
 
-ICPC 2023 亚洲区域赛 银奖
-
-23-24 程序设计基础 助教
-
-23-24 C语言程序设计 助教
-
-24-25 面向对象设计与构造 助教
+🌐 **Personal Blog**: [buaaczx.github.io](https://buaaczx.github.io)
 
 ---
 
-Interested in NLP & LLM
-
-网球爱好者，目前水平稳定 3.0，北航网球校队成员
+## 📚 Teaching Experience
+- **Teaching Assistant** for *Fundamentals of Programming* (2023 - 2024)
+- **Teaching Assistant** for *C Programming Language* (2023 - 2024)
+- **Teaching Assistant** for *Object-Oriented Design and Construction* (2024 - 2025)
 
 ---
 
-QQ / WeChat: 1759320900
+## 🏅 Competitive Achievements
+- **ICPC Asia Regional 2023** - Silver Medal
 
-Email: [caizhixin@buaa.edu.cn](caizhixin@buaa.edu.cn)
+---
 
-Github: [BuaaCzx](https://github.com/BuaaCzx)
+## 🔬 Research & Internship Experience
+- **ACT Lab, Beihang University** (Jan 2024 - Present)  
+  Research Focus: Natural Language Processing (NLP), Knowledge Graphs, Multi-Agent Systems
+
+- **Zhipu AI** (Sept 2024 - Present)  
+  Role: Large Model SFT Intern  
+  Main Work: Fine-tuning models for enhanced instruction-following and logical reasoning; building evaluation sets for instruction-following tasks
+
+---
+
+## 🔧 Tech Stack
+- **Languages**: C/C++, Java, Python
+- **Frameworks & Tools**: Django, Verilog
+
+---
+
+## 🌱 Interests
+- **Research Areas**: NLP & Large Language Models (LLMs)
+- 🎾 Tennis enthusiast, NTRP 3.0, member of Beihang University Tennis Team
+
+---
+
+## 📫 Contact
+- **QQ / WeChat**: 1759320900
+- **Email**: caizhixin@buaa.edu.cn
+- **GitHub**: [BuaaCzx](https://github.com/BuaaCzx)
+
+---
+
+Excited to share my journey in coding and research with you! Let’s explore the world of knowledge together. 🌌
