@@ -52,7 +52,7 @@ permalink: /About.html
 
 ## 📫 Contact
 - **QQ / WeChat**: 1759320900
-- **Email**: caizhixin@buaa.edu.cn
+- **Email**: **caizhixin04@163.com**, caizhixin@buaa.edu.cn, ~~caizhixin04@gmail.com~~
 - **GitHub**: [BuaaCzx](https://github.com/BuaaCzx)
 
 ---
