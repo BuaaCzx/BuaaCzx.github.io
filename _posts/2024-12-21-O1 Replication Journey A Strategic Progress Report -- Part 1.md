@@ -4,7 +4,7 @@ title: O1 Replication Journey Part 1
 tags: 学习笔记
 ---
 
-[O1 Replication Journey A Strategic Progress Report -- Part 1](http://arxiv.org/abs/2410.18982)  
+[O1 Replication Journey A Strategic Progress Report -- Part 1](https://arxiv.org/abs/2410.18982)  
 
   **[`arXiv 2024`]** *Yiwei Qin, Xuefeng Li, Haoyang Zou, Yixiu Liu, Shijie Xia, Zhen Huang, Yixin Ye, Weizhe Yuan, Hector Liu, Yuanzhi Li, Pengfei Liu*
 
