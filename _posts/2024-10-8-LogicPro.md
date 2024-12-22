@@ -1,7 +1,9 @@
 ---
 layout: post
 title: LogicPro
-tags: 学习笔记
+categories: [文献阅读]
+tags: [LLM, 学习笔记]
+slug: LogicPro
 ---
 
 使用算法题来构造高质量的推理数据。

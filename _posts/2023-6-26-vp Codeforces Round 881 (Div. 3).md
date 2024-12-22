@@ -1,7 +1,9 @@
 ---
 layout: post
 title: vp Codeforces Round 881 (Div. 3)
-tags: contests
+categories: [XCPC]
+tags: [XCPC]
+slug: cf881
 ---  
 
 vp Codeforces Round 881 (Div. 3)

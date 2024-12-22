@@ -1,7 +1,9 @@
 ---
 layout: post
 title: BUAA-OS-lab4challenge
-tags: 操作系统
+categories: [操作系统]
+tags: [操作系统, OS实验]
+slug: os-challenge-lab4
 ---
 
 Challenge Sigaction 实现文档

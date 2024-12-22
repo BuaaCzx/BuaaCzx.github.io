@@ -1,7 +1,9 @@
 ---
 layout: post
 title: LLM 学习笔记4-大模型训练
-tags: LLM 学习笔记
+categories: [LLM 学习笔记]
+tags: [LLM, 学习笔记]
+slug: LLM-learning4
 ---
 
 预训练，后训练（微调，对齐，RLHF）

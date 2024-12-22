@@ -3,16 +3,24 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
 
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+- type: qq
+  icon: "fab fa-qq"
+  url: "https://wpa.qq.com/msgrd?v=3&uin=1759320900R&site=qq&menu=yes" # 替换为你的QQ号
+
+- type: wechat
+  icon: "fab fa-weixin"
+  url: "/assets/img/wechat-qr-code.png" # 替换为你的WeChat二维码图片路径
+
+# - type: rss
+#   icon: "fas fa-rss"
+#   noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon

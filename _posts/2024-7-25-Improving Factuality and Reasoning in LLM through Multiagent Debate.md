@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Improving Factuality and Reasoning in LLM through Multiagent Debate 
-tags: 学习笔记
+categories: [文献阅读, Multi-Agent]
+tags: [LLM, 学习笔记]
+slug: multiagent-debate
 ---
 
 多智能体辩论提高语言模型的真实性和推理能力

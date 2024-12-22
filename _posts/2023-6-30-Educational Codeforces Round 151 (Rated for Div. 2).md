@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Educational Codeforces Round 151 [Rated for Div. 2]
-tags: contests
+categories: [XCPC]
+tags: [XCPC]
+slug: cfedu151
 ---  
 
 Educational Codeforces Round 151 [Rated for Div. 2]

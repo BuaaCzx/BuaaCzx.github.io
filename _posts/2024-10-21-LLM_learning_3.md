@@ -1,7 +1,9 @@
 ---
 layout: post
 title: LLM 学习笔记3-大语言模型基础
-tags: LLM 学习笔记
+categories: [LLM 学习笔记]
+tags: [LLM, 学习笔记]
+slug: LLM-learning3
 ---
 
 迁移学习，自监督学习，预训练模型（PTMs）

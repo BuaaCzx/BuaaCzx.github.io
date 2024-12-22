@@ -1,7 +1,9 @@
 ---
 layout: post
 title: MetaGPT
-tags: 学习笔记
+categories: [文献阅读, Multi-Agent]
+tags: [LLM, 学习笔记]
+slug: metaGPT
 ---
 
 在综述里看到的，介绍 Agents Communication 的结构 “Shared Message Pool” 里提到的文章。

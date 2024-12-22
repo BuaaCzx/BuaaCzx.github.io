@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Codeforces Round 882 (Div. 2)
-tags: contests
+categories: [XCPC]
+tags: [XCPC]
+slug: cf882
 ---  
 
 Codeforces Round 882 (Div. 2)

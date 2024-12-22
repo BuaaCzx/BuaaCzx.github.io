@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Multi-Agent Debate 实现文本评估器
-tags: 学习笔记
+categories: [文献阅读, Multi-Agent]
+tags: [LLM, 学习笔记]
+slug: agent-debate-judge-text
 ---
 
 Chateval：通过多智能体辩论实现更好的基于 LLM 的评估器

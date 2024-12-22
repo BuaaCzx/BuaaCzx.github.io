@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Internet of Agents
-tags: 学习笔记
+categories: [文献阅读, Multi-Agent]
+tags: [LLM, 学习笔记]
+slug: internet-of-agent
 ---
 
 Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence

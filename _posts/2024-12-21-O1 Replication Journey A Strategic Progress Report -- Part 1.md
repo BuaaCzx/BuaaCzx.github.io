@@ -1,7 +1,9 @@
 ---
 layout: post
 title: O1 Replication Journey Part 1
-tags: 学习笔记
+categories: [文献阅读, OpenAI-o1]
+tags: [LLM, 学习笔记]
+slug: O1-Replication-Journey-Part-1
 ---
 
 [O1 Replication Journey A Strategic Progress Report -- Part 1](https://arxiv.org/abs/2410.18982)  

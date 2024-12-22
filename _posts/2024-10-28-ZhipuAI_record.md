@@ -1,7 +1,9 @@
 ---
 layout: post
 title: 智谱AI实习工作记录
-tags: 实习记录
+categories: [其它]
+tags: [LLM, 实习]
+slug: ZhipuAI-Intern
 ---
 
 智谱华章科技有限公司 AI 院，2024.9 ~ 2024.11

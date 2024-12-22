@@ -1,7 +1,9 @@
 ---
 layout: post
 title: LLM 学习笔记2-神经网络
-tags: LLM 学习笔记
+categories: [LLM 学习笔记]
+tags: [LLM, 学习笔记]
+slug: LLM-learning2
 ---
 
 神经网络基础，RNN，CNN，Seq2Seq，Transformer

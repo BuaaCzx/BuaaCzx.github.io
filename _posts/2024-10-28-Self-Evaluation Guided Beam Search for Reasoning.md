@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Self-Evaluation Guided Beam Search for Reasoning
-tags: 学习笔记
+categories: [文献阅读]
+tags: [LLM, 学习笔记]
+slug: Self-Evaluation-Guided-Beam-Search-for-Reasoning
 ---
 
 让模型在推理的每一步进行自我评估和校正，结合随机性探索以提高多步骤推理的准确性和稳定性。
