@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://buaaczx.github.io"
 
 github:
   username: BuaaCzx # change to your GitHub username
@@ -223,3 +223,6 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins: # 如果你的 Jekyll 版本早于 3.5.0，这里应该是 ‘gems’ 而不是‘plugins’
+  - jekyll-sitemap
