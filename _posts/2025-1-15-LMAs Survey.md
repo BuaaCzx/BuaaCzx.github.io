@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Large Multimodal Agents: A Survey
+title: Large Multimodal Agents Survey
 categories: [文献阅读, video agent]
 tags: [LLM, 学习笔记]
-slug: mora
+slug: lmas-survey
 description: 多模态智能体综述
 ---
 
