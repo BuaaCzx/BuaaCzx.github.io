@@ -4,7 +4,7 @@ title: WorldGPT
 categories: [文献阅读, video agent]
 tags: [LLM, 学习笔记]
 slug: worldgpt
-description: A Sora-Inspired Video AI Agent as Rich World Models from Text and Image Inputs
+description: 文+图生视频
 ---
 
 https://arxiv.org/abs/2403.07944
