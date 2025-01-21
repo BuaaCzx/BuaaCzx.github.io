@@ -27,12 +27,17 @@ order: 4
 ---
 
 ## 🔬 Research & Internship Experience
-- **ACT Lab, Beihang University** (Jan 2024 - Present)  
+- **ACT Lab, Beihang University** (Jan 2024 - Present) 
   Research Focus: Natural Language Processing (NLP), Knowledge Graphs, Multi-Agent Systems
 
-- **Zhipu AI** (Sept 2024 - Present)  
-  Role: Large Model SFT Intern  
+- **Zhipu AI** (Sept 2024 - Nov 2024) 
+  Role: Large Model SFT Intern 
   Main Work: Fine-tuning models for enhanced instruction-following and logical reasoning; building evaluation sets for instruction-following tasks
+  
+- **HiDream.ai** (Jan 2025 - Present)
+
+  Role: Algorithm Intern
+  Research Focus: Multimodal Agent, Video Generation
 
 ---
 
