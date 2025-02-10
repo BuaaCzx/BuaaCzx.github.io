@@ -11,6 +11,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         pattern: >
-            _posts/*.md
+            _posts/2025-1-16-多模态智能体文献略读.md
 
         asset_repo: https://hihiczx:${{ secrets.GITEE_PUSH_DRDRXP_REPO }}@gitee.com/hihiczx/pic.git
