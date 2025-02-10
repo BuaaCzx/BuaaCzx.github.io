@@ -12,6 +12,5 @@ jobs:
       with:
         pattern: >
             _posts/*.md
-            _posts/*.markdown
 
         asset_repo: https://hihiczx:${{ secrets.GITEE_PUSH_DRDRXP_REPO }}@gitee.com/hihiczx/pic.git
