@@ -6,7 +6,7 @@ order: 4
 
 # 👋 Hi, I'm BuaaCzx
 
-🎓 **Beihang University - School of Computer Science**  
+🎓 **Beihang University - The School of Computer Science and Engineering**  
 - Major: Computer Science and Technology  
 - 2022.09 - 2026.07
 
@@ -28,10 +28,11 @@ order: 4
 
 ## 🔬 Research & Internship Experience
 - **ACT Lab, Beihang University** (Jan 2024 - Present) 
+
   Research Focus: Natural Language Processing (NLP), Knowledge Graphs, Multi-Agent Systems
 
 - **Zhipu AI** (Sept 2024 - Nov 2024) 
-  Role: Large Model SFT Intern 
+
   Main Work: Fine-tuning models for enhanced instruction-following and logical reasoning; building evaluation sets for instruction-following tasks
   
 - **HiDream.ai** (Jan 2025 - Present)
