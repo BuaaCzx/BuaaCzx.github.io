@@ -21,7 +21,10 @@ https://huggingface.co/papers/2411.17440
 
 - [x] 已完成环境配置，制作环境镜像。但是模型下载比较慢。
 
-**使用时遇到的问题**：如果上传的人像由于光线原因，面部不同部位色彩有差异，生成出来的图像也会继承这一面部特征，但由于背景改变，这一特征变得不合理。也就是说生成效果会很依赖于人面部图像的质量，可以接一个 I2I 的模型去对上传的人像进行优化，或者是修改。
+**使用时遇到的问题**
+
+- 如果上传的人像由于光线原因，面部不同部位色彩有差异，生成出来的图像也会继承这一面部特征，但由于背景改变，这一特征变得不合理。也就是说生成效果会很依赖于人面部图像的质量，可以接一个 I2I 的模型去对上传的人像进行优化，或者是修改。
+- 你给什么角度的照片，它就吐这个人这个角度的视频。有局限性。
 
 ## MagicTime
 
@@ -45,6 +48,37 @@ https://github.com/feizc/Ingredients
 
 Based on ConsisID，上传两个特定人物图像，生成视频。 
 
-##Follow-Your-Emoji
+## UniPortrait
 
-https://github.com/mayuelala/FollowYourEmoji
+https://github.com/junjiehe96/UniPortrait
+
+生成特定 ID 的图像。
+
+## Rotate-and-Render
+
+https://github.com/Hangz-nju-cuhk/Rotate-and-Render
+
+Recover a frontal face image of the same person from a single face image under any poses.
+
+生成人物正面照。
+
+模型地址过期了。。。
+
+## PhotoMaker
+
+https://photo-maker.github.io/
+
+人像编辑，可以用 prompt 改变人像角度。
+
+> prompt: woman img, a highly detailed and realistic portrait of a young woman with delicate facial features, natural skin texture, and warm lighting. The image is captured from a front view perspective with a medium shot framing, showing the subject’s full head, including completely full hair. The background is softly blurred to enhance depth, with professional portrait photography and cinematic lighting.
+
+> neg prompt: nsfw, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, cropped head, missing hair, head cut off, no hair, partial head, incomplete head, upper body only, close-up without hair
+
+## PuLID
+
+https://github.com/ToTheBeginning/PuLID
+
+time_step那个参数设2效果比较好
+
+> prompt: woman , front view perspective with a medium shot framing, showing the subject’s full head, including completely full hair.
+
